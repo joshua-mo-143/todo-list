@@ -1,0 +1,45 @@
+* {
+    font-family: Helvetica;
+}
+
+
+.todo-input {
+    padding: 10px 10px;
+    border: none;
+    background: #302E41;
+    color: white;
+    font-weight: 500;
+    outline: none;
+}
+
+.btn-add {
+    background: teal;
+    color: white;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.btn-clearcompleted {
+    @extend .btn-add;
+}
+
+.todo-container {
+    background: red;
+    width: 321px;
+    padding: 5px 0px;
+    border: 1px solid black;
+    background: linear-gradient(to top right,#D3D3D3 0%, rgba(211, 211, 211,0.3) 50%, #D3D3D3 100%);
+
+    .todo-checkbox{
+    margin-right: 5px;
+    }
+}
+
+.items-left {
+    background: teal;
+    width: 311px;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 700;
+}
